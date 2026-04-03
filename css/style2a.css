@@ -2,8 +2,8 @@
   @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,500i,700,700i,900&display=swap");
   @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,700,700i,900&display=swap");
   @font-face {
-    font-family: 'Intro';
-    src: url('../fonts/IntroRegular.otf');
+    font-family: 'Poppins';
+    src: url("https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,700,700i,900&display=swap");
   }
   .flex-center-start{
   display:-webkit-box;
@@ -32,7 +32,7 @@
     align-items: center;
     font-size: 16px;
     transform: rotate(-90deg);
-    font-family: "Intro";
+    font-family: "Poppins";
     color: #fff;
 	/* border-radius: 5px; */
 }
@@ -50,13 +50,13 @@
     align-items: center;
     font-size: 16px;
     transform: rotate(-90deg);
-    font-family: "Intro";
+    font-family: "Poppins";
     color: #fff;
 	;
 }
 
 body{
-  font-family:'Intro', sans-serif;
+  font-family:'Poppins', sans-serif;
   font-weight:normal;
   font-style:normal}
 
@@ -109,7 +109,7 @@ p{
   line-height:26px;
   color:#5c5c5c;
   margin-bottom:13px;
-  font-family:'Intro', sans-serif}
+  font-family:'Poppins', sans-serif}
 
 label{
   color:#7e7e7e;
@@ -294,7 +294,7 @@ h3{
   color:#fff;
   display:inline-block;
   padding:13px 32px;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-size:16px;
   font-weight:400;
   border:0;
@@ -315,7 +315,7 @@ h3{
   display:inline-block;
   padding:22px 50px;
   font-size:16px;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400}
 
 .boxed-btn2:hover{
@@ -342,7 +342,7 @@ h3{
   font-size:44px;
   line-height:56px;
   font-weight:400;
-  font-family:"Intro",sans-serif}
+  font-family:"Poppins",sans-serif}
 
 @media (max-width: 767px){
   .section-title h3{
@@ -367,7 +367,7 @@ h3{
 .section-title span{
   font-size:16px;
   color:#CD442B;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   margin-bottom:13px;
   display:block;
@@ -575,7 +575,7 @@ h3{
   font-weight:600;
   display:inline-block;
   padding:35px 10px 35px 30px;
-  font-family:"Intro",bold;
+  font-family:"Poppins",bold;
   text-transform: uppercase;
   position:relative}
 
@@ -967,7 +967,7 @@ h3{
   margin-bottom:16px}
 
 .slider-area .single-slider .slider-content h3{
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:500;
   font-size:60px;
   color:#161e35;
@@ -1084,7 +1084,7 @@ h3{
 .service-area .single-service p{
   font-size:16px;
   color:#5c5c5c;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   margin-top:18px;
   margin-bottom:21px}
@@ -1096,7 +1096,7 @@ h3{
   -moz-transition:.3s;
   -o-transition:.3s;
   transition:.3s;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   font-size:16px;
   display:inline-block}
@@ -1152,7 +1152,7 @@ h3{
   position:relative;
   left:0;
   font-weight:400;
-  font-family:"Intro",sans-serif}
+  font-family:"Poppins",sans-serif}
 
 .service-details .details-nav ul li a.active.show{
   color:#CD442B;
@@ -1194,7 +1194,7 @@ h3{
   margin-bottom:34px}
 
 .service-details .single-details .details-info h3{
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-size:44px;
   font-weight:400;
   color:#020c26;
@@ -1219,7 +1219,7 @@ h3{
 
 .project-area .project-active .single-project .project-info span{
   color:#CD442B;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   display:block;
   margin-bottom:13px;
@@ -1229,7 +1229,7 @@ h3{
 .project-area .project-active .single-project .project-info h3{
   font-size:26px;
   color:#fff;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400}
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -1363,7 +1363,7 @@ h3{
 
 .main-project-area .single-project .project-info span{
   color:#CD442B;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   display:block;
   margin-bottom:13px;
@@ -1373,7 +1373,7 @@ h3{
 .main-project-area .single-project .project-info h3{
   font-size:26px;
   color:#020c26;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400}
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -1401,7 +1401,7 @@ h3{
   font-size:44px;
   font-weight:400;
   color:#020c26;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   margin-bottom:20px}
 
 @media (max-width: 767px){
@@ -1412,7 +1412,7 @@ h3{
 
 .project-review-area .single-review p{
   color:#5c5c5c;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   font-size:16px;
   margin-bottom:17px;
@@ -1447,7 +1447,7 @@ h3{
 
 .full-width-gallery .solution-wrap p{
   font-size:16px;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   color:#5c5c5c;
   line-height:28px;
   font-weight:400}
@@ -1482,7 +1482,7 @@ h3{
   font-size:24px;
   line-height:36px;
   color:#5c5c5c;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   margin-top:17px;
   margin-bottom:44px}
@@ -1533,7 +1533,7 @@ h3{
   color:#fff;
   font-size:24px;
   font-weight:400;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   position:relative;
   z-index:9}
 
@@ -1667,7 +1667,7 @@ h3{
   font-size:24px;
   line-height:36px;
   color:#5c5c5c;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   margin-top:17px;
   margin-bottom:44px}
@@ -1723,14 +1723,14 @@ h3{
 
 .about-area .about-review .project-review h3{
   color:#fff;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-size:46px;
   margin-bottom:9px;
   line-height:30px}
 
 .about-area .about-review .project-review p{
   font-size:18px;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   margin-bottom:0;
   color:#fff !important}
@@ -1834,17 +1834,17 @@ h3{
   font-size:46px;
   color:#020c26;
   font-weight:400;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   margin-bottom:-2px}
 
 .counter-area .single-counter .counter-number h3 span{
   font-weight:400;
-  font-family:"Intro",sans-serif}
+  font-family:"Poppins",sans-serif}
 
 .counter-area .single-counter .counter-number p{
   font-size:18px;
   color:#848484;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400}
 
 .counter-area .single-counter .counter-number p span{
@@ -1856,7 +1856,7 @@ h3{
   padding-bottom:155px}
 
 .cta-area .cta-content{
-  font-family: 'Intro';
+  font-family: 'Poppins';
   display:block;
   background:#CD442B;
   position:relative;
@@ -1869,7 +1869,7 @@ h3{
 }
 
 .cta-area .cta-content h3{
-  font-family: "Intro";
+  font-family: "Poppins";
   font-size:44px;
   line-height:56px;
   color:#fff;
@@ -2059,7 +2059,7 @@ h3{
   margin-bottom:10px;
   display:block;
   font-weight:400;
-  font-family:"Intro",sans-serif}
+  font-family:"Poppins",sans-serif}
 
 .footer-area .single-footer-widget .office-location ul li p{
   color:#5c5c5c;
@@ -2076,7 +2076,7 @@ h3{
   color:#020c26;
   /* text-transform:capitalize; */
   font-size:24px;
-  font-family:'Intro', sans-serif}
+  font-family:'Poppins', sans-serif}
 
 @media (max-width: 1024px){
   .footer-area .single-footer-widget h4{
@@ -2172,7 +2172,7 @@ h3{
 
 .footer-area .footer_1 p{
   margin-bottom:15px;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   color:#5c5c5c;
   font-size:16px;
@@ -2448,7 +2448,7 @@ h3{
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2{
   font-size:60px;
   font-weight:500;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   color:#fff}
 
 @media (max-width: 767px){
@@ -2506,7 +2506,7 @@ h3{
   margin-bottom:131px}
 
 .details-banner-area .details-banner-text a{
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   color:#CD442B;
   font-size:16px;
   font-weight:400;
@@ -2514,7 +2514,7 @@ h3{
   margin-bottom:13px}
 
 .details-banner-area .details-banner-text h2{
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-size:60px;
   font-weight:500;
   color:#fff;
@@ -2651,13 +2651,13 @@ h3{
 
 .team-area .single-team .team-info h3{
   font-weight:400;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   color:#020c26;
   margin-bottom:8px}
 
 .team-area .single-team .team-info p{
   font-weight:400;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-size:16px;
   color:#5c5c5c;
   margin-bottom:0}
@@ -2670,7 +2670,7 @@ h3{
 #accordion button{
   font-size:16px;
   font-size:24px;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   font-weight:400;
   color:#CD442B}
 
@@ -2701,7 +2701,7 @@ h3{
   line-height:28px;
   color:#5c5c5c;
   padding:0px 30px 32px;
-  font-family:"Intro",sans-serif;
+  font-family:"Poppins",sans-serif;
   line-height:28px}
 
 #accordion .card .collapse.show{
