@@ -1025,8 +1025,8 @@ h3{
 } */
 
 .brand-area {
-  background-color: #f9f9f9; /* só se quiser */
-  padding: 40px 0;
+  background-color: #f5f5f5;
+  padding: 30px 0;
 }
 
 /* .brand-area .brand-active .single-brand{
@@ -1044,13 +1044,15 @@ h3{
 
 .brand-area .brand-active .single-brand {
   display: flex;
-  padding: 0 auto;
   align-items: center;
   justify-content: center;
-  height: 150px;
-  /* background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.05); */
+  height: 200px;             /* Aumentamos a altura disponível para o logo */
+  padding: 0 40px;           /* Garante um espaçamento interno seguro entre as logos */
+  transition: transform 0.3s ease;
+}
+
+.brand-area .brand-active .single-brand:hover {
+  transform: scale(1.05);
 }
 
 /* .brand-area .brand-active .single-brand img{
@@ -1059,12 +1061,18 @@ h3{
 } */
 
 .brand-area .brand-active .single-brand img {
-  max-height: 350px;
-  width: auto;
+  max-height: 120px;         /* Define um tamanho limite excelente para visualização técnica */
+  width: auto !important;    /* Força o Owl Carousel a respeitar a proporção da largura */
   height: auto;
-  display: flex;
-  object-fit: contain;
-  left: 100px;
+  object-fit: contain;       /* Garante que a imagem nunca fique distorcida ou esticada */
+  filter: grayscale(100%);   /* Deixa moderno em cinza (remova se quiser colorido) */
+  opacity: 0.6;              /* Opacidade sutil */
+  transition: all 0.3s ease;
+}
+
+.brand-area .brand-active .single-brand:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 .service-area{
