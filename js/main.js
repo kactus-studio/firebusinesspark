@@ -138,24 +138,23 @@ $('.popup-video').magnificPopup({
   //brand-active
 $('.brand-active').owlCarousel({
   loop:true,
-  margin:30,
-items:1,
-autoplay:true,
+  margin:40,
+  items:1,
+  autoplay:true,
   nav:false,
-dots:false,
-autoplayHoverPause: true,
-autoplaySpeed: 800,
+  dots:false,
+  autoplayHoverPause: true,
+  autoplaySpeed: 800,
   responsive:{
       0:{
           items:1,
-          nav:false
 
       },
-      767:{
-          items:4
+      768:{
+          items:2
       },
-      992:{
-          items:7
+      1000:{
+          items:5
       }
   }
 });
